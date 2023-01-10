@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header, Hero } from "../components";
+import { About, Header, Hero } from "../components";
 
 export default function Home() {
   return (
@@ -11,9 +11,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
+
+      <section id="about" className="snap-center">
+        <About />
+      </section>
+      
     </div>
   );
 }
