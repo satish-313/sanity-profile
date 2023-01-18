@@ -23,6 +23,10 @@ const WorkExpirence: React.FC<Props> = () => {
         <WorkExpirenceCard />
         <WorkExpirenceCard />
         <WorkExpirenceCard />
+        <WorkExpirenceCard />
+        <WorkExpirenceCard />
+        <WorkExpirenceCard />
+        <WorkExpirenceCard />
       </div>
     </motion.div>
   );

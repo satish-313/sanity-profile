@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { About, Header, Hero, WorkExpirence } from "../components";
+import { About, Header, Hero, Skills, WorkExpirence } from "../components";
 
 export default function Home() {
   return (
@@ -21,6 +21,10 @@ export default function Home() {
       
       <section id="experience" className="snap-center">
         <WorkExpirence />
+      </section>
+
+      <section id="skills" className="snap-start">
+        <Skills />
       </section>
     </div>
   );
